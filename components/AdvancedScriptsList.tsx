@@ -17,7 +17,7 @@ const ADVANCED_FEATURES = [
   { title: 'Specific Hours', cron: '0 0 8,12,16 * * ?', desc: 'Runs at exactly 8AM, 12PM, and 4PM.' },
   { title: 'Last Day of Month', cron: '0 0 0 L * ?', desc: 'Perfect for end-of-month reporting.' },
   { title: 'Nearest Weekday', cron: '0 0 0 15W * ?', desc: 'If 15th is Sunday, runs on Monday 16th.' },
-  { title: 'Last Friday', cron: '0 0 0 ? * 6L', desc: 'Commonly used for payroll processing.' },
+  { title: 'Last Friday', cron: '0 0 0 ? * 5L', desc: 'Commonly used for payroll processing.' },
   { title: 'Time Ranges', cron: '0 0 9-17 * * ?', desc: 'Every hour but only during working hours.' },
 ];
 
