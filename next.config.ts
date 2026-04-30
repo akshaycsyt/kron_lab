@@ -1,7 +1,24 @@
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+// const nextConfig: NextConfig = {
+//   /* config options here */
+//   output: 'export', // This generates a /out folder with static HTML/CSS/JS
+//   distDir: 'out', // This explicitly names the folder
+//   images: { unoptimized: true }
+// };
 
-export default nextConfig;
+// module.exports = {
+//   allowedDevOrigins: ['192.168.1.7'],
+// }
+
+// export default nextConfig;
+
+
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  output: 'export'
+}
+
+module.exports = nextConfig
